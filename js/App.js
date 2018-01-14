@@ -12,14 +12,12 @@ import {
   View
 } from 'react-native';
 
+import RootNavigator from './navigation';
+
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to RNNavigation experiment!
-        </Text>
-      </View>
+      <RootNavigator/>
     );
   }
 }
